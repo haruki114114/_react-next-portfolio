@@ -1,0 +1,30 @@
+.header {
+  position: fixed; /* ✅ ヘッダーを固定 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* ✅ メインコンテンツより前面にする */
+  background: linear-gradient(to bottom, #00344D, #00A9D4);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px 24px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 24px 16px 8px;
+  }
+}
