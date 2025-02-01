@@ -6,7 +6,7 @@ export default function notFound() {
       <dl>
         <dt className={styles.title}>ページが見つかりませんでした</dt>
         <dd className={styles.text}>
-          あなたがアクセスしようとしたページは存在しません。
+          このページは存在しません。
           <br />
           URLを再度ご確認ください。
         </dd>
